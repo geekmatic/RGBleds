@@ -1,0 +1,44 @@
+void alg6(){
+  ledsclear();
+  kvadrat4(CHSV( random(50, 255),random(50, 255),random(50, 255)));
+  FastLED.show();
+  delay(wait);
+  kvadrat5(CHSV( random(50, 255),random(50, 255),random(50, 255)));
+  FastLED.show();
+  delay(wait);
+  kvadrat7(CHSV( random(50, 255),random(50, 255),random(50, 255)));
+  FastLED.show();
+  delay(wait);
+  kvadrat6(CHSV( random(50, 255),random(50, 255),random(50, 255)));
+  FastLED.show();
+  delay(wait);
+
+  ledsclear();
+  CRGB cvet1 = CHSV( random(50, 255),random(50, 255),random(50, 255));
+  dot(cvet1);
+  kvadrat1(cvet1);
+  FastLED.show();
+  delay(wait);
+  ledsclear();
+  kvadrat5(CHSV( random(50, 255),random(50, 255),random(50, 255)));
+  FastLED.show();
+  delay(wait);
+  ledsclear();
+  kvadrat6(CHSV( random(50, 255),random(50, 255),random(50, 255)));
+  FastLED.show();
+  delay(wait);
+  ledsclear();
+  kvadrat4(CHSV( random(50, 255),random(50, 255),random(50, 255)));
+  FastLED.show();
+  delay(wait);
+  ledsclear();
+  kvadrat7(CHSV( random(50, 255),random(50, 255),random(50, 255)));
+  FastLED.show();
+  delay(wait);
+  ledsclear();
+  cvet1 = CHSV( random(50, 255),random(50, 255),random(50, 255));
+  dot(cvet1);
+  kvadrat1(cvet1);
+  FastLED.show();
+  delay(wait);
+}

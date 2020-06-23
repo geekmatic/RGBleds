@@ -1,0 +1,51 @@
+void alg7(){
+  CRGB cvet1 = CHSV( random(40, 100),random(40, 100),random(40, 100));
+  for (int i = 0; i <= 48; i++) {
+    leds[i] = cvet1;
+  }
+  FastLED.show();
+  delay(wait);
+  cvet1 = CHSV( random(100, 254),random(100, 254),random(100, 254));
+  leds[21] = cvet1;
+  leds[27] = cvet1;
+  FastLED.show();
+  delay(wait);
+  cvet1 = CHSV( random(100, 254),random(100, 254),random(100, 254));
+  leds[14] = cvet1;
+  leds[20] = cvet1;
+  leds[22] = cvet1;
+  leds[26] = cvet1;
+  leds[28] = cvet1;
+  leds[34] = cvet1;
+  FastLED.show();
+  delay(wait);
+  cvet1 = CHSV( random(100, 254),random(100, 254),random(100, 254));
+  leds[7] = cvet1;
+  leds[13] = cvet1;
+  leds[15] = cvet1;
+  leds[19] = cvet1;
+  leds[23] = cvet1;
+  leds[25] = cvet1;
+  leds[29] = cvet1;
+  leds[33] = cvet1;
+  leds[35] = cvet1;
+  leds[41] = cvet1;
+  FastLED.show();
+  delay(wait);
+  cvet1 = CHSV( random(100, 254),random(100, 254),random(100, 254));
+  leds[0] = cvet1;
+  leds[6] = cvet1;
+  leds[8] = cvet1;
+  leds[12] = cvet1;
+  leds[16] = cvet1;
+  leds[18] = cvet1;
+  leds[24] = cvet1;
+  leds[30] = cvet1;
+  leds[32] = cvet1;
+  leds[36] = cvet1;
+    leds[40] = cvet1;
+  leds[42] = cvet1;
+  leds[48] = cvet1;
+  FastLED.show();
+  delay(wait);
+}
